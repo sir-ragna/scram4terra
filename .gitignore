@@ -1,0 +1,5 @@
+scrambler/*.pyc
+scrambler/__pycache__/
+*.pyc
+*scram.txt
+.directory
