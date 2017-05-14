@@ -11,7 +11,7 @@ import re
 
 
 scrambler.test() # will throw errors if something changes.
-# scrambler.main() # print a few test cases.
+scrambler.main() # print a few test cases.
 
 def scramble_file(file_name, scram_fn):   
     output_s = ""
