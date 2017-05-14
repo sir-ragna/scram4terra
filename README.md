@@ -4,7 +4,7 @@
 ### Files ###
 
 - scrambler - DIRECTORY
-    * __init__.py - FILE that contains the scrable functions.
+    * `__init__.py` - FILE that contains the scrable functions.
 - scramble-these-files.py - FILE that imports the scrambler module
   and uses the functions contained therein.
 - hackers.txt - FILE testing material
