@@ -1,5 +1,5 @@
  
-## Scrambler 4 Terrachron ##
+## Scrambler for Terrachron ##
 
 ### Files ###
 
@@ -33,4 +33,3 @@ The following functions are available.
 ### TODO ####
 
 - Put cassing back
-- Put whitespace back in place

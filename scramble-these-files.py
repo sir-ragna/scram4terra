@@ -1,4 +1,5 @@
 import scrambler
+import re
 
 # Available functions
 # - std_chr_scramble() 
@@ -19,10 +20,10 @@ def scramble_file(file_name, scram_fn):
         output_s = ""
         for line in lines:
             out_line = ""
-            words = line.split() # will split on whitespace
-            for word in words:
-                out_line += scram_fn(word)
-            output_s += out_line + "\n"
+            tokens = re.findall("[\w]+|[\W]+", line)
+            for token in tokens:
+                out_line += scram_fn(token)
+            output_s += out_line
             
     return output_s
 
