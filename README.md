@@ -29,7 +29,3 @@ The following functions are available.
 - lel_chr_scramble()
 - main() - prints some sample text
 - test() - will run tests
-
-### TODO ####
-
-- Put cassing back
